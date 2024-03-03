@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HealHub</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h3>HealHub</h3>
+        </div>
+        <div class="about">
+            <h3> Your Guide to Home Remedies for Every Ailment.</h3>
+        </div>
+        <div class="main">
+            <h3>Get your Remedies !</h3><br>
+            <h3>Select any issues
+            <select id="issues">
+                <option>Cold</option><option>Fever</option><option>Stomach Pain</option><option>Head Ache</option><option>Vomit</option><option>Acidity</option>
+                <option>Tooth Pain</option><option>Pimple</option><option>Loosemotion</option><option>Burn</option>
+               </select></h3>
+            <h3>Select any ingredients
+            <select id="ingredient">
+                <option value="Ginger">Ginger</option>
+                <option value="Lemon">Lemon</option>
+                <option value="Coconut">Coconut</option>
+                <option value="Turmeric">Turmeric</option>
+                <option value="Other">Other</option>
+            </select><br><br></h3>
+            <div  class="get-btn" onclick="solution()">HEAL</div>
+            <div class="text">
+                <textarea id="textarea" readonly></textarea>
+            </div>
+            </div>
+    </body>
+</html>
